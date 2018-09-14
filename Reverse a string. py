@@ -1,0 +1,15 @@
+def reverse(string): 
+
+    string = "".join(reversed(string)) 
+
+    return string 
+
+s =input('Enter a string:')
+
+print ("The original string is ") 
+
+print (s) 
+
+print ("The reversed string is ") 
+
+print (reverse(s))
