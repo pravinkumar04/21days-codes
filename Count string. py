@@ -1,0 +1,10 @@
+def main():
+
+    word = input("Enter a sentence:")
+
+    wordcount = len(word)
+
+    print("The total word count is " + str(wordcount))
+
+main()
+
